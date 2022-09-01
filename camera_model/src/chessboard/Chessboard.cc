@@ -5,9 +5,13 @@
 
 #include "camodocal/chessboard/ChessboardQuad.h"
 #include "camodocal/chessboard/Spline.h"
-
+#include <opencv2/imgproc/types_c.h>
+#include <opencv2/imgproc/types_c.h>
+#include <opencv2/imgproc/imgproc_c.h>
+#include <opencv2/calib3d/calib3d_c.h>
 #define MAX_CONTOUR_APPROX  7
-
+#define  CV_GRAY2BGR cv::COLOR_GRAY2BGR
+#define  CV_BGR2GRAY cv::COLOR_BGR2GRAY
 namespace camodocal
 {
 

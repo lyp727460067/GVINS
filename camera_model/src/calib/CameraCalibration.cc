@@ -16,6 +16,13 @@
 #include "camodocal/gpl/EigenQuaternionParameterization.h"
 #include "camodocal/gpl/EigenUtils.h"
 #include "camodocal/camera_models/CostFunctionFactory.h"
+#include <opencv2/imgproc/types_c.h>
+#include <opencv2/imgproc/imgproc_c.h>
+#include <opencv2/calib3d/calib3d_c.h>
+// #define CV_AA  cv::LINE_AA
+// #define  CV_GRAY2BGR cv::COLOR_GRAY2BGR
+// #define  CV_BGR2GRAY cv::COLOR_BGR2GRAY
+// #define  CV_GRAY2RGB  cv::COLOR_GRAY2RGB
 
 #include "ceres/ceres.h"
 namespace camodocal

@@ -11,7 +11,9 @@
 #include "camodocal/chessboard/Chessboard.h"
 #include "camodocal/calib/CameraCalibration.h"
 #include "camodocal/gpl/gpl.h"
-
+#include <opencv2/imgproc/types_c.h>
+#include <opencv2/imgproc/imgproc_c.h>
+#include <opencv2/calib3d/calib3d_c.h>
 int main(int argc, char** argv)
 {
     cv::Size boardSize;
